@@ -1,0 +1,16 @@
+.persona{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(25% - 2rem);
+    
+}
+
+@media screen and (max-width: 768px){
+    .persona{
+        width:auto;
+        margin-bottom: 2rem;
+    }
+    
+}

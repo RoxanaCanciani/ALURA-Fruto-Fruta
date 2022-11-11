@@ -1,0 +1,15 @@
+.quienes-somos{
+
+    text-align: center;
+    padding: 2.5rem ;
+}
+@media screen and (max-width: 768px){
+    .quienes-somos{
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        
+        
+    }
+}
